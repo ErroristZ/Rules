@@ -4,8 +4,7 @@
 #!arguments=interval:"20 7 * * *",timeout:60
 
 [MITM]
-hostname = %INSERT% api.m.jd.com,passport.iqiyi.com,*.bilibili.com,xmc.ximalaya.com,mcs-mimp-web.sf-express.com,auth.alipan.com,auth.aliyundrive.com,game.dominos.com.cn,qmwebapi.qmai.cn,webapi.qmai.cn,gw2c-hw-open.longfor.com
-hostname = %APPEND% yunbusiness.ccb.com
+hostname = %INSERT% api.m.jd.com,passport.iqiyi.com,*.bilibili.com,xmc.ximalaya.com,mcs-mimp-web.sf-express.com,auth.alipan.com,auth.aliyundrive.com,game.dominos.com.cn,qmwebapi.qmai.cn,webapi.qmai.cn,gw2c-hw-open.longfor.com, %APPEND% yunbusiness.ccb.com 
 
 [Rule]
 DOMAIN,gslbali.ximalaya.com,REJECT
